@@ -1,0 +1,49 @@
+.process {
+    background-color: #f9f9f9;
+    padding: 0px 60px;
+    border-radius: 12px;
+    margin: 60px 0;
+}
+
+.process h1 {
+    text-align: center;
+    color: #212EA0;
+    margin-bottom: 30px;
+}
+
+.process ol {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.process li {
+    counter-increment: step-counter;
+    position: relative;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    padding-left: 40px;
+}
+
+.process li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #212EA0;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.process p {
+    margin-left: 40px;
+    color: #555;
+}
