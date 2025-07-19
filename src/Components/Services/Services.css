@@ -43,3 +43,27 @@
 .service:hover .caption {
     opacity: 1;
 }
+
+.service-details {
+    background: #F9F9F9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #333;
+    animation: fadeIn 0.3s ease;
+}
+
+.service-details h3 {
+    margin-bottom: 5px;
+    color: #000F38;
+}
+
+.service-details ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
