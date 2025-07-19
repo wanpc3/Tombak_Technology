@@ -6,6 +6,7 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Values from './Components/Values/Values'
 import Process from './Components/Process/Process'
+import Staff from './Components/Staff/Staff'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
         <Title subTitle='Our Values' title='Vision | Mission | Objectives'/>
         <Values />
+
+        <Title subTitle='Meet Our Team' title='Key Staff'/>
+        <Staff />
 
         <Title subTitle='Our Process' title='Our Prototyping Process'/>
         <Process />
