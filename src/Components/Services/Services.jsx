@@ -7,7 +7,7 @@ import service_4 from '../../assets/service-4.png'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <div className="service">
         <img src={service_1} alt="" />
         <div className="caption">

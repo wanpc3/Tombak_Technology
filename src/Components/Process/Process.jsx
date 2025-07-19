@@ -3,7 +3,7 @@ import './Process.css';
 
 const Process = () => {
   return (
-    <div className="process">
+    <div className="process" id='process'>
       <ol>
         <li>Requirement Analysis</li>
         <p>We work with you to define specifications and technical requirements.</p>

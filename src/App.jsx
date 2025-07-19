@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import Values from './Components/Values/Values'
 import Process from './Components/Process/Process'
 import Staff from './Components/Staff/Staff'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
         <Title subTitle='Our Process' title='Our Prototyping Process'/>
         <Process />
+
+        <Title subTitle='Get in Touch' title='Contact Us'/>
+        <Contact />
       </div>
     </div>
   );
