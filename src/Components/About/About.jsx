@@ -6,7 +6,7 @@ import logo from '../../assets/logo.png'
 const About = () => {
   return (
     <div>
-      <div className="about">
+      <div className="about" id="about">
         <div className="about-left">
             <img src={logo} alt="" className='tombak-logo'/>
             <img src="" alt="" className='play-icon'/>

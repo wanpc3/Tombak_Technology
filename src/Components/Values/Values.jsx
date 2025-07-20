@@ -6,7 +6,7 @@ import value_3 from '../../assets/value-3.png';
 
 const Values = () => {
   return (
-    <div className='values'>
+    <div className='values' id='values'>
       <div className="value">
         <img src={value_1} alt="" />
         <h2>Vision</h2>

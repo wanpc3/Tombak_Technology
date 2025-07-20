@@ -9,6 +9,7 @@ import Process from './Components/Process/Process'
 import Staff from './Components/Staff/Staff'
 import Contact from './Components/Contact/Contact'
 import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
 
         <Title subTitle='Get in Touch' title='Contact Us'/>
         <Contact />
+
+        <Footer />
       </div>
     </div>
   );

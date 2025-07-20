@@ -11,9 +11,11 @@ nav {
     justify-content: space-between;
     z-index: 10;
 }
+
 .logo {
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 nav ul li {
@@ -28,19 +30,21 @@ nav ul li {
     transition: 0.5s;
 }
 
+.menu-icon {
+    display: none;
+}
+
 @media (max-width: 1000px) {
-    .logo {
-        width: 140px;
-    }
     nav ul li {
         margin: 10px 15px;
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 840px) {
     nav {
         padding: 15px 0;
     }
+
     nav ul {
         position: fixed;
         top: 0;
@@ -52,8 +56,26 @@ nav ul li {
         padding-top: 70px;
         transition: 0.5s;
     }
+
     nav ul li {
         display: block;
         margin: 25px 40px;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu {
+        right: -200px;
+    }
+}
+
+/* Optional: improve small screen behavior */
+@media (max-width: 650px) {
+    nav {
+        padding: 10px 0;
     }
 }

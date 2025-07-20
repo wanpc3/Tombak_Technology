@@ -16,7 +16,7 @@ const Staff = () => {
   }
 
   return (
-    <div className='staff'>
+    <div className='staff' id='team'>
       <img src={back_icon} alt="Back" className='back-btn' onClick={handleBack} />
       <img src={next_icon} alt="Next" className='next-btn' onClick={handleNext} />
       

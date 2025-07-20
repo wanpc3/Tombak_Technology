@@ -56,22 +56,18 @@
 }
 
 /* ---- Responsive Styling ---- */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .about {
         flex-direction: column;
-        text-align: center;
     }
 
-    .about-left, .about-right {
+    .about-left{
         flex-basis: 100%;
+        margin: 20px;
+        order: 2;
     }
 
-    .about h2 {
-        font-size: 24px;
-        max-width: none;
-    }
-
-    .play-icon {
-        width: 50px;
+    .about-right {
+        flex-basis: 100%;
     }
 }
