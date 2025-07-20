@@ -20,6 +20,7 @@ const Navbar = () => {
           <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
           <li><Link to='services' smooth={true} offset={-260} duration={500}>Services</Link></li>
           <li><Link to='process' smooth={true} offset={-260} duration={500}>Our Process</Link></li>
+          <li><Link to='projects' smooth={true} offset={-260} duration={500}>Projects</Link></li>
           <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact us</Link></li>
       </ul>
     </nav>
