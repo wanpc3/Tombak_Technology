@@ -6,6 +6,7 @@ import service_3 from '../../assets/service-3.png'
 import service_4 from '../../assets/service-4.png'
 
 const Services = () => {
+  //Array of objects representing services
   const services = [
     {
       img: service_1,

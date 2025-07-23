@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import logo from '../../assets/logo.png'
-//import play_icon from '../../assets/play-icon.png'
 
 const About = () => {
   return (
